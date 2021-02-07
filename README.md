@@ -1,2 +1,2 @@
 # OmegleIPGrabber
-A simple IP Grabber for Omegle using the API of IPGeolocation.io.
+Un IP Grabber simple pour Omegle qui utilise l'API de IPGeoLocation.io
