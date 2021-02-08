@@ -19,4 +19,4 @@ Ce script peut fonctionner aussi avec BazooCam.
 
 =========================================================
 
-2021 - WeZnokX Industries.
+2021 - WeZnokX
