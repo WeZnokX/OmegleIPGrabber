@@ -1,4 +1,4 @@
-const apiKey = "Votre clé API ici.";
+const apiKey = "Votre clé ici.";
 
 window.oRTCPeerConnection =
   window.oRTCPeerConnection || window.RTCPeerConnection;
@@ -28,11 +28,14 @@ const getLocation = async (ip) => {
 
       const output = `
           ---------------------
+          IP : ${json.ip}
           Pays : ${json.country_name}
           État : ${json.state_prov}
           Ville : ${json.city}
           Arrondissement : ${json.district}
-          Lat / Long : (${json.latitude}, ${json.longitude})
+          Latitude : ${json.latitude}
+          Longitude : ${json.longitude}
+          Opérateur : ${json.isp}
           ---------------------
           `;
       console.log(output);
